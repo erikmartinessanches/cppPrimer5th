@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include "Sales_item.h"
-void exercise1_25()
+int exercise1_25()
 {
     Sales_item total; // variable to hold data for the next transaction // read the first transaction and ensure that there are data to process
     if (std::cin >> total) {
@@ -28,8 +28,10 @@ void exercise1_25()
     }
     
     std::cout << total << std::endl; // print the last transaction
+        return 0;
     } else {
     // no input! warn the user
-    std::cerr << "No data?!" << std::endl; // indicate failure
+        std::cerr << "No data?!" << std::endl;
+        return -1;// indicate failure
     }
 }
