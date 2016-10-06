@@ -8,9 +8,11 @@
 
 #include <iostream>
 #include "Ex1_9.cpp"
+#include "Example1_4_3.cpp"
+#include "readingAndWritingSales_item.cc"
 
 int main(int argc, const char * argv[]) {
-    exercise1_9();
+    readingAndWritingSales_item();
     // insert code here...
 //    std::cout << "Enter two numbers:" << std::endl;
 //    int v1 = 0, v2 = 0;
