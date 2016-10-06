@@ -6,13 +6,15 @@
 //  Copyright © 2016 Erik Martines Sanches. All rights reserved.
 //
 
-#include <iostream>
-#include "Ex1_9.cpp"
+
+#include "Exercise1_9.cpp"
 #include "Example1_4_3.cpp"
+#include "Exercise1_25.cpp"
 #include "readingAndWritingSales_item.cc"
 
-int main(int argc, const char * argv[]) {
-    readingAndWritingSales_item();
+int main(int argc, const char * argv[])
+{
+    exercise1_25();
     // insert code here...
 //    std::cout << "Enter two numbers:" << std::endl;
 //    int v1 = 0, v2 = 0;

@@ -1,5 +1,5 @@
 //
-//  Ex1_9.cpp
+//  Exercise1_9.cpp
 //  C++Primer5thEd
 //
 //  Created by Erik Martines Sanches on 2016-10-06.
